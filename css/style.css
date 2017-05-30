@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+
+body{
+	background-color: #55ACEE;
+	font-family: 'Lato', sans-serif;
+}
+.container{
+	max-width: 1200px;
+	text-align: center;
+}
+h1{
+	margin-top: 10vh;
+	font-size: 70px;
+	color: white;
+}
+h2{
+	font-size: 30px;
+	color: white;
+}
+h3{
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+}
+.buttonPanell{
+	display: flex;
+	justify-content: center;
+	padding-top: 20vh;
+	padding-bottom: 5vh;
+}
+.fbuttonShareTwitter{
+	color: rgb(53,106,160);
+}
+
+.buttonShareTwitter:hover{
+	color: white;
+}
+.btn{
+	width: 250px;
+	margin-bottom: 5vh;
+	background-color: white;
+	color: rgb(53,106,160);
+}
+.btn:hover{
+	background-color: rgb(53,106,160);
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+	color: white;
+}
